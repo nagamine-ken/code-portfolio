@@ -3,30 +3,30 @@
 }
 
 .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
+}
 
-  .feature {
-    margin-bottom: 1em;
-  }
+.feature {
+  margin-bottom: 1em;
+}
 
-  .btn-group {
-    margin: auto;
-  }
+.btn-group {
+  margin: auto;
+}
 
-  .list-group {
-    padding: 2em 0 2em 0;
-  }
+.list-group {
+  padding: 2em 0 2em 0;
+}
 
 .projects-card {
   margin-bottom: 2em;
