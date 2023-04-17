@@ -8,6 +8,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 // This allows me to access my static files in the "public" folder:
 app.use(express.static("public"))
 
+//When you get a Get request to the "/" root directory send this html file
 app.get("/", function(req, res){
     res.sendFile( __dirname + "/index.html")
 })
@@ -48,7 +49,7 @@ app.get("/", function(req, res){
 
 //   });
 
-
+// Use Express to listen to process.env.PORT on production or to the port 3000 in your local environment:
 app.listen(process.env.PORT || 3000, function(){
     console.log("Listening to Port 3000!")
 })
